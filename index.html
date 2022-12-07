@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <script type="text/javascript" src="http://requirejs.org/docs/release/2.3.2/minified/require.js"></script>
+    </head>
+    <body>
+        <h1>Hallo Yassin</h1>
+        <script>
+            requirejs(["scripts/say"], function(say) {
+            console.log(say.hello("english"));
+            console.log(say.hello("spanish"));
+            console.log(say.hello("french"));
+            });
+        </script>
+    </body>
+</html>
