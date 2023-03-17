@@ -1,9 +1,10 @@
 requirejs(["https:raw.githubusercontent.com/YassinRian/cogrd/main/scripts/say.js"], function(say) {
- return {
+ const Contentview = function() {
   console.log(say.hello("english"));
   console.log(say.hello("spanish"));
   console.log(say.hello("french"));
- }
+ };
+ return Contentview;
 });
 
 // define(function(require) {
