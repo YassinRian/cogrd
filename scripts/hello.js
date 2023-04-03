@@ -1,5 +1,5 @@
 define(["https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"],
-// hallo
+// hallo kom op
 function(Plotly)
 
 {
