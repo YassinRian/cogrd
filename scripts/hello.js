@@ -1,4 +1,12 @@
-define(function() {
-  function person() {};
-  return person;
+define([], function() {
+  'use strict';
+  
+  function insrt() {};
+
+  insrt.prototype.initialize = function(oControlHost, fnDoneInitializing)
+  {
+    fnDoneInitializing();
+  }
+
+  return insrt;
 });
