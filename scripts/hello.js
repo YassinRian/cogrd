@@ -1,13 +1,12 @@
 define(function() {
 
-  function Person(name) {
-    this.name = name
-  }
+  function Person() { }
 
   Person.prototype.bla = function() {
-  name_ = this.name;
+  name_ = 'yassin';
   const elm = document.getElementById('yassin');
-  return elm.innerHTML(name_);
+  elm.innerHTML(name_);
   }
 
+  return Person;
 });
