@@ -1,4 +1,4 @@
 define(function() {
-  function Person() {};
-  return Person;
+  function person() {};
+  return person;
 });
