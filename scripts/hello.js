@@ -1,11 +1,13 @@
-define([],function() {
+define(function() {
 
   function Person(name) {
     this.name = name
   }
 
-  const yassin = new Person('Yassin Rian');
+  Person.prototype.bla = function() {
+  name_ = this.name;
   const elm = document.getElementById('yassin');
-  elm.innerHTML(yassin);
+  return elm.innerHTML(name_);
+  }
 
 });
