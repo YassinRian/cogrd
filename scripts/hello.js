@@ -1,3 +1,11 @@
 define(function() {
-oPage.getControlByName( "ValuePrompt1" ).autoSubmit = false;
+
+  function Person(name) {
+    this.name = name
+  }
+
+  const yassin = new Person('Yassin Rian');
+  const elm = document.getElementById('yassin');
+  elm.innerHTML(yassin);
+
 });
