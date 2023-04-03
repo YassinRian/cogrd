@@ -1,4 +1,4 @@
-define(function() {
+define([],function() {
 
   function Person(name) {
     this.name = name
