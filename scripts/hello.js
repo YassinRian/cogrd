@@ -1,10 +1,14 @@
-define(function() {
+define( function() {
+"use strict";
 
-    function hallo() {};
+function BasicControl()
+{
+};
 
-    hallo.prototype.bla = function() {
-        console.log("hallo yassin !!")
-    }
+BasicControl.prototype.draw = function( oControlHost )
+{
+	oControlHost.container.innerHTML = "Hello Yassin";
+};
 
-    return hallo;
+return BasicControl;
 });
