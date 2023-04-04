@@ -1,9 +1,10 @@
-define([], function() {
-    function hallo() {}
+define(function() {
 
-    hallo.prototype.bla() {
-        console.log("hallo yassin..werkt dit?");
+    function hallo() {};
+
+    hallo.prototype.bla = function() {
+        console.log("hallo yassin !!")
     }
 
     return hallo;
-})
+});
