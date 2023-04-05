@@ -1,12 +1,15 @@
-define(function(){
+define(function() {
+    "use strict";
 
+    function BasicControl() 
+    {
+    };
 
-    function BasicControl() {};
-
-    BasicControl.prototype.draw = function(oControlHost) {
+    BasicControl.prototype.draw = function(oControlHost) 
+    {
         const cont = oControlHost.container;
-        cont.InnerHTML = `<h1>Hallo Yassin Rian!!</h1>`
-    }
+        cont.innerHTML = "<h1>Hallo Yassin Rian!!</h1>"
+    };
 
     return BasicControl;
 });
