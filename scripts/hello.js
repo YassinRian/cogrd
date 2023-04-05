@@ -8,7 +8,15 @@ define(function() {
     BasicControl.prototype.draw = function(oControlHost) 
     {
         const cont = oControlHost.container;
-        cont.innerHTML = "<h1>Hallo Yassin vanuit Github !!!</h1>"
+    
+        const fragment = document.createDocumentFragment();
+        const li = fragment
+        .appendChild(document.createElement("section"))
+        .appendChild(document.createElement("ul"))
+        .appendChild(document.createElement("li"));
+        li.textContent = "hello world";
+
+        cont.appendChild(fragment);
     };
 
     return BasicControl;
