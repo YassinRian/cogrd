@@ -11,7 +11,7 @@ define(function() {
     
         const fragment = () => `<h1>Hallo Yassin Rian</h1>`
 
-        cont.appendChild(fragment);
+        cont.appendChild(fragment());
     };
 
     return BasicControl;
