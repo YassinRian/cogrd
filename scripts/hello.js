@@ -9,12 +9,7 @@ define(function() {
     {
         const cont = oControlHost.container;
     
-        const fragment = document.createDocumentFragment();
-        const li = fragment
-        .appendChild(document.createElement("section"))
-        .appendChild(document.createElement("ul"))
-        .appendChild(document.createElement("li"));
-        li.textContent = "hello Yassin Rian";
+        const fragment = () => `<h1>Hallo Yassin Rian</h1>`
 
         cont.appendChild(fragment);
     };
