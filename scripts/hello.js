@@ -8,10 +8,10 @@ define(function() {
     BasicControl.prototype.draw = function(oControlHost) 
     {
         const cont = oControlHost.container;
+        
+        const elm = () => `<h1>Hallo Yassin!!</h1>`;
     
-        const fragment = () => `<h1>Hallo Yassin Rian</h1>`
-
-        cont.appendChild(fragment());
+        $(cont).append(elm());
     };
 
     return BasicControl;
