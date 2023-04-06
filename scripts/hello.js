@@ -14,7 +14,7 @@ define(function() {
         .appendChild(document.createElement("section"))
         .appendChild(document.createElement("ul"))
         .appendChild(document.createElement("li"));
-        li.textContent = "hello world";
+        li.textContent = "hello Yassin Rian";
 
         cont.appendChild(fragment);
     };
