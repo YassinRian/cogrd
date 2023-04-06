@@ -8,10 +8,8 @@ define(function() {
     BasicControl.prototype.draw = function(oControlHost) 
     {
         const cont = oControlHost.container;
+        cont.innerHTML = "Hallo Yassin";
         
-        const elm = () => `<h1>Hallo Yassin!!</h1>`;
-    
-        JQuery(cont).append('<p>hallooo</p>');
     };
 
     return BasicControl;
