@@ -11,7 +11,7 @@ define(function() {
         
         const elm = () => `<h1>Hallo Yassin!!</h1>`;
     
-        $(cont).append(elm());
+        $(cont).append('<p>hallooo</p>');
     };
 
     return BasicControl;
